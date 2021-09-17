@@ -93,7 +93,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hi, Tz me liya lol")
+    await message.reply_text("Hi, It's me Pandora lol")
 
 
 async def main():
